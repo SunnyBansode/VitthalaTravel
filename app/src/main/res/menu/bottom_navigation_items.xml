@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tours"
+        android:enabled="true"
+        android:icon="@drawable/tours_icon"
+        android:title="Tours"  />
+    <item
+        android:id="@+id/flights"
+        android:enabled="true"
+        android:icon="@drawable/bus_icon"
+        android:title="Bus" />
+    <item
+        android:id="@+id/cars"
+        android:enabled="true"
+        android:icon="@drawable/car_icon"
+        android:title="Cars" />
+
+    <item
+        android:id="@+id/myBookings"
+        android:enabled="true"
+        android:icon="@drawable/hotel_icon"
+        android:title="My Bookings" />
+</menu>

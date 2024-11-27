@@ -1,0 +1,28 @@
+{
+  "cars": [
+    {
+      "name": "Swift Dezire",
+      "seat": 4,
+      "price_per_day": 1000,
+      "transmission": "automatic",
+      "details": "Maruti Swift Dezire Tour is a 5-seater car. The car is available in petrol manual and cng manual configurations in White colour only and 2 variants.Swift Dzire Tour is a fuel efficient car with petrol mileage of 23.15 kmpl and CNG mileage of 31.12 km/kg.",
+      "image": "https://i.pinimg.com/736x/6b/f7/f6/6bf7f6eb29e5f11972638449303fef80.jpg"
+    },
+    {
+      "name":"Innova",
+      "seat": 7,
+      "price_per_day": 2500,
+      "transmission": "manual",
+      "details": "Maruti Swift Dezire Tour is a 5-seater car. The car is available in petrol manual and cng manual configurations in White colour only and 2 variants.Swift Dzire Tour is a fuel efficient car with petrol mileage of 23.15 kmpl and CNG mileage of 31.12 km/kg.",
+      "image": "https://i.pinimg.com/736x/4b/fd/ab/4bfdabdbd83fd4f454aca27a23a1cbca.jpg"
+    },
+    {
+      "name":"Ciaz",
+      "seat": 5,
+      "price_per_day": 1500,
+      "transmission": "automatic",
+      "details": "",
+      "image": "https://i.pinimg.com/736x/3d/70/f0/3d70f0592d5f7d95771a8b20881d6cfd.jpg"
+    }
+  ]
+}

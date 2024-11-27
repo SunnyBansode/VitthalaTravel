@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activities.BookingActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!-- EditText for number of passengers -->
+        <EditText
+            android:id="@+id/et_passenger_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of passengers"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:hint="Time" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:hint="Date" />
+
+
+        <!-- AutoCompleteTextView for source city -->
+        <AutoCompleteTextView
+            android:id="@+id/actv_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:entries="@array/city_names"
+            android:hint="Select source city" />
+
+        <!-- AutoCompleteTextView for destination city -->
+        <AutoCompleteTextView
+            android:id="@+id/actv_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:entries="@array/city_names"
+            android:hint="Select destination city" />
+
+        <!-- EditText for duration of days -->
+        <EditText
+            android:id="@+id/et_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter duration in days"
+            android:inputType="number" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mbtnBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Book"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="18dp" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TimePicker for selecting a time -->
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+

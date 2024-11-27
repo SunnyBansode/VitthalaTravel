@@ -1,0 +1,46 @@
+{
+  "hotels": [
+    {
+      "name": "Hotel Jai malhar",
+      "reviews": 177,
+      "stars": 3,
+      "price_per_night": 1200,
+      "details": "Welcome to my world. You will be greeted by the unexpected here and your mind will be challenged and expanded in ways that you never thought possible. That is if you are able to survive",
+      "image": "https://images.unsplash.com/photo-1521750465-672a0f580901?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=480&ixid=MnwxfDB8MXxyYW5kb218MHw0OTc3ODIzfHx8fHx8fDE2ODYzOTYzMDA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=480"
+    },
+    {
+      "name": "Hotel Dwarkapark",
+      "reviews": 86,
+      "stars": 3,
+      "price_per_night": 1000,
+      "details": "He was aware there were numerous wonders of this world including the unexplained creations of humankind that showed the wonder of our ingenuity. There are huge heads on Easter Island. There are the Egyptian pyramids. There’s Stonehenge. But he now stood in front of a newly discovered monument that simply didn't make any sense and he wondered how he was ever going to be able to explain it.",
+      "image": "https://images.unsplash.com/photo-1566550747935-21b7f2464b57?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=480&ixid=MnwxfDB8MXxyYW5kb218MHw0OTc3ODIzfHx8fHx8fDE2ODYzOTYzMTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=480"
+    },
+    {
+      "name": "Hotel Dwarkamai",
+      "reviews": 390,
+      "stars": 5,
+      "price_per_night": 2500,
+      "details": "Sometimes it just doesn't make sense. The man walking down the street in a banana suit. The llama standing in the middle of the road. The fairies dancing in front of the car window. The fact that all of this was actually happening and wasn't a dream.",
+      "image": "https://images.unsplash.com/photo-1594995810334-df6d1a6209a1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=480&ixid=MnwxfDB8MXxyYW5kb218MHw0OTc3ODIzfHx8fHx8fDE2ODYzOTYzMTk&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=480"
+    },
+    {
+      "name": "Hotel Place",
+      "reviews": 412,
+      "stars": 3,
+      "price_per_night": 1863,
+      "details": "They say you only come to peace with yourself when you know yourself better than those around you. Derick knew nothing about this. He thought he had found peace but this was an illusion as he was about to find out with an unexpected occurrence that he actually knew nothing about himself.",
+      "image": "https://images.unsplash.com/photo-1569335468924-da9aa372cba5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=480&ixid=MnwxfDB8MXxyYW5kb218MHw0OTc3ODIzfHx8fHx8fDE2ODYzOTYzMjg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=480"
+    },
+
+    {
+      "name": "Taj Palace",
+      "reviews": 267,
+      "stars": 2,
+      "price_per_night": 3578,
+      "details": "Twenty-five years Dana had been waiting. She tried to be patient during that time but she hadn't always managed to be as patient as she'd like. But today the opportunity had finally come. The thing she always imagined would make her the happiest person in the world was about to happen.",
+      "image": "https://images.unsplash.com/photo-1589560033953-9e8dff6693f9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=480&ixid=MnwxfDB8MXxyYW5kb218MHw0OTc3ODIzfHx8fHx8fDE2ODYzOTY1NTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=480"
+    }
+
+  ]
+}

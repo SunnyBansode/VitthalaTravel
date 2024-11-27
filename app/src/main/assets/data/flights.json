@@ -1,0 +1,274 @@
+{
+  "flights": [
+    {
+      "from": "Shirdi",
+      "to": "Mumbai",
+      "duration_in_hours": 5,
+      "departure": "16:30",
+      "arrival": "04:03",
+      "price": "1500",
+      "stops": 3
+    },
+    {
+      "from": "Shirdi",
+      "to": "Nashik",
+      "duration_in_hours": 5,
+      "departure": "16:40",
+      "arrival": "18:07",
+      "price": "500",
+      "stops": 0
+    },
+    {
+      "from": "Shirdi",
+      "to": "Pune",
+      "duration_in_hours": 5,
+      "departure": "14:53",
+      "arrival": "12:55",
+      "price": "1500",
+      "stops": 2
+    },
+    {
+      "from": "Mumbai",
+      "to": "Shirdi",
+      "duration_in_hours": 5,
+      "departure": "10:31",
+      "arrival": "09:24",
+      "price": "1500",
+      "stops": 2
+    },
+    {
+      "from": "Pune",
+      "to": "Shirdi",
+      "duration_in_hours": 5,
+      "departure": "05:49",
+      "arrival": "21:27",
+      "price": "1500",
+      "stops": 2
+    },
+    {
+      "from": "Nashik",
+      "to": "Shirdi",
+      "duration_in_hours": 5,
+      "departure": "12:24",
+      "arrival": "16:49",
+      "price": "500",
+      "stops": 0
+    },
+    {
+      "from": "Shirdi",
+      "to": "Nagpur",
+      "duration_in_hours": 7,
+      "departure": "02:09",
+      "arrival": "23:34",
+      "price": "2000",
+      "stops": 3
+    },
+    {
+      "from": "Nagpur",
+      "to": "Shirdi",
+      "duration_in_hours": 7,
+      "departure": "05:55",
+      "arrival": "15:23",
+      "price": "2000",
+      "stops": 2
+    },
+    {
+      "from": "Shirdi",
+      "to": "Shegaon",
+      "duration_in_hours": 5,
+      "departure": "21:39",
+      "arrival": "05:32",
+      "price": "1700",
+      "stops": 3
+    },
+    {
+      "from": "Shegaon",
+      "to": "Shirdi",
+      "duration_in_hours": 5,
+      "departure": "14:10",
+      "arrival": "06:49",
+      "price": "1700",
+      "stops": 2
+    },
+    {
+      "from": "Mahabaleshwar",
+      "to": "Shirdi",
+      "duration_in_hours": 8,
+      "departure": "00:50",
+      "arrival": "09:56",
+      "price": "1000",
+      "stops": 0
+    },
+    {
+      "from": "Shirdi",
+      "to": "Mahabaleshwar",
+      "duration_in_hours": 8,
+      "departure": "16:24",
+      "arrival": "00:31",
+      "price": "1000",
+      "stops": 3
+    },
+    {
+      "from": "Kolhapur",
+      "to": "Shirdi",
+      "duration_in_hours": 9,
+      "departure": "23:03",
+      "arrival": "01:57",
+      "price": "2000",
+      "stops": 2
+    },
+    {
+      "from": "Shirdi",
+      "to": "Kolhapur",
+      "duration_in_hours": 9,
+      "departure": "18:11",
+      "arrival": "13:08",
+      "price": "2000",
+      "stops": 2
+    },
+    {
+      "from": "Pandharpur",
+      "to": "Shirdi",
+      "duration_in_hours": 6,
+      "departure": "11:07",
+      "arrival": "00:08",
+      "price": "800",
+      "stops": 0
+    },
+    {
+      "from": "Shirdi",
+      "to": "Pandharpur",
+      "duration_in_hours": 6,
+      "departure": "10:40",
+      "arrival": "06:13",
+      "price": "800",
+      "stops": 1
+    },
+    {
+      "from": "Indore",
+      "to": "Shirdi",
+      "duration_in_hours": 9,
+      "departure": "09:27",
+      "arrival": "09:02",
+      "price": "4000",
+      "stops": 1
+    },
+    {
+      "from": "Shirdi",
+      "to": "Indore",
+      "duration_in_hours": 9,
+      "departure": "17:35",
+      "arrival": "22:04",
+      "price": "4000",
+      "stops": 0
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Shirdi",
+      "duration_in_hours": 11,
+      "departure": "15:31",
+      "arrival": "04:45",
+      "price": "7000",
+      "stops": 2
+    },
+    {
+      "from": "Shirdi",
+      "to": "Hyderabad",
+      "duration_in_hours": 11,
+      "departure": "18:51",
+      "arrival": "00:07",
+      "price": "7000",
+      "stops": 2
+    },
+    {
+      "from": "Pune",
+      "to": "Hyderabad",
+      "duration_in_hours": 10,
+      "departure": "17:14",
+      "arrival": "07:49",
+      "price": "4500",
+      "stops": 3
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Pune",
+      "duration_in_hours": 10,
+      "departure": "20:50",
+      "arrival": "09:40",
+      "price": "4500",
+      "stops": 2
+    },
+    {
+      "from": "Shirdi",
+      "to": "Tuljapur",
+      "duration_in_hours": 6,
+      "departure": "10:51",
+      "arrival": "05:49",
+      "price": "1600",
+      "stops": 1
+    },
+    {
+      "from": "Tuljapur",
+      "to": "Shirdi",
+      "duration_in_hours": 6,
+      "departure": "22:21",
+      "arrival": "16:28",
+      "price": "1600",
+      "stops": 0
+    },
+    {
+      "from": "Sangli",
+      "to": "Shirdi",
+      "duration_in_hours": 9,
+      "departure": "16:30",
+      "arrival": "19:43",
+      "price": "1800",
+      "stops": 3
+    },
+    {
+      "from": "Shirdi",
+      "to": "Sangli",
+      "duration_in_hours": 9,
+      "departure": "20:52",
+      "arrival": "01:00",
+      "price": "1800",
+      "stops": 2
+    },
+    {
+      "from": "Latur",
+      "to": "Shirdi",
+      "duration_in_hours": 6,
+      "departure": "20:31",
+      "arrival": "09:07",
+      "price": "2500",
+      "stops": 2
+    },
+    {
+      "from": "Shirdi",
+      "to": "Latur",
+      "duration_in_hours": 6,
+      "departure": "02:35",
+      "arrival": "21:17",
+      "price": "2500",
+      "stops": 0
+    },
+    {
+      "from": "Shirdi",
+      "to": "Banglore",
+      "duration_in_hours": 20,
+      "departure": "17:33",
+      "arrival": "15:15",
+      "price": "5000",
+      "stops": 2
+    },
+    {
+      "from": "Banglore",
+      "to": "Shirdi",
+      "duration_in_hours": 20,
+      "departure": "16:55",
+      "arrival": "21:00",
+      "price": "5000",
+      "stops": 1
+    }
+  ]
+}

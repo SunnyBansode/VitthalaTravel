@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Starting Date -->
+    <TextView
+        android:id="@+id/startingDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Starting Date"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/startingDateInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="Select starting date"
+        android:inputType="none"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/startingDateLabel" />
+
+    <!-- Starting Time -->
+    <TextView
+        android:id="@+id/startingTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Starting Time"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/startingDateInput" />
+
+    <EditText
+        android:id="@+id/startingTimeInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="Select starting time"
+        android:inputType="none"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/startingTimeLabel" />
+
+    <!-- Ending Date -->
+    <TextView
+        android:id="@+id/endingDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Ending Date"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/startingTimeInput" />
+
+    <EditText
+        android:id="@+id/endingDateInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="Select ending date"
+        android:inputType="none"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/endingDateLabel" />
+
+    <!-- Ending Time -->
+    <TextView
+        android:id="@+id/endingTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Ending Time"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/endingDateInput" />
+
+    <EditText
+        android:id="@+id/endingTimeInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="Select ending time"
+        android:inputType="none"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/endingTimeLabel" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitDateTimeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/endingTimeInput" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:padding="16dp"-->
+    <!--   >-->
+
+    <!--    &lt;!&ndash; Starting Date &ndash;&gt;-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/startingDateLabel"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Starting Date"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:layout_marginBottom="8dp"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/startingDateInput"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Select starting date"-->
+    <!--        android:focusable="false"-->
+    <!--        android:inputType="none"-->
+    <!--        android:drawableEnd="@drawable/ic_calendar"-->
+    <!--        android:background="@drawable/input_background"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/startingDateLabel"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--    &lt;!&ndash; Starting Time &ndash;&gt;-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/startingTimeLabel"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Starting Time"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:layout_marginBottom="8dp"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/startingDateInput"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/startingTimeInput"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Select starting time"-->
+    <!--        android:focusable="false"-->
+    <!--        android:inputType="none"-->
+    <!--        android:drawableEnd="@drawable/ic_clock"-->
+    <!--        android:background="@drawable/input_background"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/startingTimeLabel"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--    &lt;!&ndash; Ending Date &ndash;&gt;-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/endingDateLabel"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Ending Date"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:layout_marginBottom="8dp"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/startingTimeInput"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/endingDateInput"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Select ending date"-->
+    <!--        android:focusable="false"-->
+    <!--        android:inputType="none"-->
+    <!--        android:drawableEnd="@drawable/ic_calendar"-->
+    <!--        android:background="@drawable/input_background"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/endingDateLabel"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--    &lt;!&ndash; Ending Time &ndash;&gt;-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/endingTimeLabel"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Ending Time"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:layout_marginBottom="8dp"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/endingDateInput"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/endingTimeInput"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Select ending time"-->
+    <!--        android:focusable="false"-->
+    <!--        android:inputType="none"-->
+    <!--        android:drawableEnd="@drawable/ic_clock"-->
+    <!--        android:background="@drawable/input_background"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/endingTimeLabel"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--    &lt;!&ndash; Submit Button &ndash;&gt;-->
+    <!--    <Button-->
+    <!--        android:id="@+id/submitDateTimeButton"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="32dp"-->
+    <!--        android:text="Submit"-->
+    <!--        android:backgroundTint="@color/purple_500"-->
+    <!--        android:textColor="@android:color/white"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/endingTimeInput"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent" />-->
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->

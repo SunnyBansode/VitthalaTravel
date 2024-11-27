@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fast Travel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- String array for city names -->
+
+        <array name="city_names">
+            <item>New York</item>
+            <item>Los Angeles</item>
+            <item>Chicago</item>
+            <item>Houston</item>
+            <item>Phoenix</item>
+            <item>Philadelphia</item>
+            <item>San Antonio</item>
+            <item>San Diego</item>
+            <item>Dallas</item>
+            <item>San Jose</item>
+        </array>
+
+</resources>

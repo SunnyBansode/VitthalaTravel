@@ -1,0 +1,76 @@
+{
+  "tours": [
+    {
+      "image":"https://i.pinimg.com/736x/fa/99/a9/fa99a9fbdecaa6d170aff7ef4b7d2350.jpg",
+      "title": "Kashmir",
+      "price": 8000,
+      "location": "Kashmir",
+      "days": 5,
+      "details": "Popularly referred to as the Paradise on Earth, Kashmir is a breathtaking region in northwestern India. Historically part of the princely state of Jammu and Kashmir, Jammu & Kashmir was declared a Union Territory in 2019. The major cities in the Kashmir Valley inc..."
+    },
+    {
+      "image":"https://i.pinimg.com/control2/736x/3f/91/5d/3f915da54cea988a288766c123be003a.jpg",
+      "title": "Udaipur",
+      "price": 11000,
+      "location": "Rajasthan",
+      "days": 3,
+      "details": "Udaipur, the ''City of Lakes'', stands as a jewel in the crown of Rajasthan, India. Nestled amidst the Aravalli Range, this city captivates visitors with its regal charm, historic grandeur, and scenic landscapes."
+    },
+    {
+      "image":"https://i.pinimg.com/736x/83/a0/2b/83a02be45c7d35d8a2d54f1181c5f764.jpg",
+      "title": "Andaman",
+      "price": 15000,
+      "location": "Andaman & Nicobar Island",
+      "days": 7,
+      "details": "Replete with turquoise blue water beaches and a bit of history, Andaman & Nicobar Islands is a little slice of paradise tucked around 1,400 km away from the east coast of mainland India."
+    },
+    {
+      "image":"https://i.pinimg.com/736x/af/fd/57/affd574fb1b4d61e841231ed8721cbfc.jpg",
+      "title": "Munnar",
+      "price": 11500,
+      "location": "Kerala",
+      "days": 3,
+      "details": "Famous for the tea estates, greenery, winding roads, blanket of mist, and viewpoints, Munnar is a hill station in Kerala, located in the Idukki district. Lying in the Western Ghats at 1600 metres, it is one of the most sought after and visited travel destinations globally"
+    },
+    {
+      "image":"https://i.pinimg.com/736x/3a/e7/6e/3ae76e15e4df8f76993f92e7f9f3c7ae.jpg",
+      "title": "Manali",
+      "price": 8500,
+      "location": "Himachal",
+      "days": 5,
+      "details": "With spectacular valleys, breathtaking views, snowcapped mountains, and lush forests of oak, deodar, and pine, Manali is a magical hill station at the northern end of Kullu valley in Himachal Pradesh.."
+    },
+    {
+      "image":"https://i.pinimg.com/736x/07/1d/3b/071d3b4a5ebb658209e103bcb56a4fae.jpg",
+      "title": "Agra",
+      "price": 10000,
+      "location": "Uttar Pradesh",
+      "days": 2,
+      "details": "Located on the banks of River Yamuna in Uttar Pradesh, Agra is a popular tourist destination as it is home to one of the 7 wonders of the world, the Taj Mahal. It is a sneak peek into the architectural history and legacy of the Mughal empire"
+    },
+    {
+      "image":"https://i.pinimg.com/736x/45/6f/72/456f72a137b6bfd7e3d29efc2e3057ed.jpg",
+      "title": "Alleppey",
+      "price": 19999,
+      "location": "Kerala",
+      "days": 6,
+      "details": "Officially called Alappuzha, Alleppey is known for its network of canals and lagoons with beautiful backwaters and the houseboats offering overnight stays. Located in the southern part of Kerala, the coastline of Alleppey offers some of the best beaches "
+    },
+    {
+      "image":"https://i.pinimg.com/736x/28/9b/95/289b95a6b9f5e5c381e9bbd2bcf8bf0d.jpg",
+      "title": "Darjeeling",
+      "price": 10000,
+      "location": "West Bengal",
+      "days": 4,
+      "details": "Darjeeling, the former summer capital of India under the British Raj, has evolved into one of India's most sought-after hill stations. This picturesque hill destination in West Bengal is ideal for a romantic honeymoon."
+    },
+    {
+      "image":"https://i.pinimg.com/736x/c2/fe/5a/c2fe5a1e23c7282181da15bb525ea745.jpg",
+      "title": "Shillong",
+      "price": 15200,
+      "location": "Meghalay",
+      "days": 5,
+      "details": "Nestled amidst the pine-clad hills, Shillong, the capital of Meghalaya, unfolds like a picturesque canvas at an elevation of 1496 meters. Revered as the 'Scotland of the East,' the city offers a delightful blend of captivating landscapes, pleasant weather, and rich traditions. "
+    }
+  ]
+}

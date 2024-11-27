@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "313281156102",
+    "project_id": "guide-app-8c162",
+    "storage_bucket": "guide-app-8c162.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313281156102:android:ab46084c788c5e7f2e5f87",
+        "android_client_info": {
+          "package_name": "com.alivakili.travel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlw9mpfH0V3L2pDXowV9imJQcDqppqXYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
